@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="classes">
+    <listeners>
+              <listener class-name="org.uncommons.reportng.HTMLReporter" />
+              
+</listeners>
+    <test name="Tests">
+        <classes>
+            <class name="lms_testng.Lms_Tc01_Websitetitle" />
+            <class name="lms_testng.Lms_Tc02_Websiteheading" />
+            <class name="lms_testng.Lms_Tc03_Firstinfobox" />
+            <class name="lms_testng.Lms_Tc04_Secpopularcourse" />
+            <class name="lms_testng.Lms_Tc05_MyAccount" />
+            <class name="lms_testng.Lms_Tc06_MyAccountLogin" />
+            <class name="lms_testng.Lms_Tc07_Countercourses" />
+            <class name="lms_testng.Lms_Tc08_ContactScreen" />
+            <class name="lms_testng.Lms_Tc09_simplelesson" />
+            <class name="lms_testng.Lms_Tc10_1_MarkComplete" />
+            <class name="lms_testng.Lms_Tc10_Markcomplete" />
+            <class name="lms_testng.Lms_Tc11_1_entire" />
+            <class name="lms_testng.Lms_Tc12_XPATH" />
+            <class name="lms_testng.Lms_Tc13_Entirecoursecomplete" />
+        </classes>
+    </test>
+</suite>
